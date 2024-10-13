@@ -1,0 +1,430 @@
+    1  cd /etc
+    2  cd .
+    3  cd ..
+    4  clear
+    5  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+    6  sudo apt install zsh
+    7  sudo apr
+    8  sudo apt
+    9  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+   10  cd /home/ubuntu/tmp
+   11  cd ./tmp
+   12  mkdir tmp
+   13  cd tmp
+   14  cat file 1
+   15  cat --help
+   16  cat > file1.txt
+   17  cat > file2.txt
+   18  cat file1.txt file2.txt > file12.txt
+   19  cat file12.txt
+   20  mv file12.txt file21.txt
+   21  touch file3.txt file4.txt
+   22  mkdir directory1
+   23  mv file3.txt file4.txt directory1/
+   24  rm -r directory1 file3.txt fil4.txt
+   25  rm -r directory1 file3.txt file4.txt
+   26  rm -r directory1
+   27  ls
+   28  echo kjgnkjfgnb > file1.txt
+   29  ls
+   30  cp file1.txt file2.txt
+   31  ln -s file1.txt file3.txt
+   32  ln file1.txt file 4.txt
+   33  ln file1.txt file4.txt
+   34  ls -i file1.txt file2.txt file3.txt file4.txt
+   35  ls
+   36  rm file1.txt
+   37  cat file2.txt
+   38  cat file3.txt
+   39  cat file4.txt
+   40  mv file2.txt refile2.txt
+   41  mv file3.txt refile3.txt
+   42  ln -s refile2.txt new_link.txt
+   43  mkdir directory2
+   44  mv refile3.txt new_link.txt directory2/
+   45  ls
+   46  sudo useradd -m -d /home/new_user_home -s /usr/bin/zsh new_user
+   47  cd etc
+   48  cd
+   49  cd /etc
+   50  ls
+   51  less passwd
+   52  sudo passwd new_user
+   53  sudo less passwd
+   54  sudo less shadow
+   55  man su
+   56  su new_user
+   57  cd skel
+   58  cd
+   59  nano .nanorc
+   60  sudo cp .nanorc /root
+   61  sudo cp .nanorc /etc/skell
+   62  cd /etc/skell
+   63  sudo cp .nanorc /etc/skel
+   64  cd /etc/skel
+   65  ls -lA
+   66  sudo adduser second_user
+   67  cd
+   68  sudo userdel --help
+   69  cat /etc/passwd
+   70  sudo userdel -rf new_user
+   71  groups
+   72  sudo usermod -aG sudo second_user
+   73  su second_user
+   74  sudo groupmod --help
+   75  sudo gpasswd -d second_user sudo
+   76  sudo passwd root
+   77  su
+   78  groups second_user
+   79  sudo gpasswd -a second_user group1
+   80  sudo usermod -aG group2 second_user
+   81  clear
+   82  cd /etc/apt
+   83  ll
+   84  cd sources.list
+   85  cd sources.list.d/
+   86  sudo touch vb.list
+   87  sudo nano vb.list
+   88  ls /usr/share/keyrings/
+   89  wget -O- https://www.virtualbox.org/download/oracle_vbox_2016.asc | sudo gpg --yes --output /usr/share/keyrings/oracle-virtualbox-2016.gpg --dearmor
+   90  ls /usr/share/keyrings/
+   91  cd /pfuheprb
+   92  cd /загрузки
+   93  cd /Загрузки
+   94  cd Загрузки/
+   95  ls
+   96  sudo apt install ./google-chrome-stable_current_amd64.deb -y
+   97  cd .
+   98  cd
+   99  sudo snap
+  100  clear
+  101  wget https://dev.mysql.com/get/mysql-apt-config_0.8.16-1_all.deb
+  102  sudo dpkg -i mysql-apt-config_0.8.16-1_all.deb
+  103  clear
+  104  sudo apt-get update
+  105  sudo apt-get install nginx
+  106  sudo apt uninstall
+  107  sudo apt delete
+  108  dpkg -l
+  109  grep Google Chrome
+  110  grep Google
+  111  grep Chrome
+  112  sudo apt purge ./google-chrome-stable_current_amd64.deb -y
+  113  dpkg -l
+  114  sudo snap install telegram
+  115  sudo snap search telegram
+  116  sudo snap install telegram-desktop
+  117  snap list
+  118  sudo snap remove telegram-desktop
+  119  clear
+  120  echo "Bye" >> example
+  121  crontab --help
+  122  crontab -e
+  123  crontab nano
+  124  crontab -e
+  125  sudo nano /etc/netplan/
+  126  sudo nano /etc/netplan/01-network-manager-all.yaml
+  127  ip
+  128  ip ls
+  129  ip a
+  130  sudo apt install traceroute -y
+  131  traceroute gb.ru
+  132  clear
+  133  ss
+  134  clear
+  135  ss
+  136  clear
+  137  sudo iptables -L
+  138  cd /etc/nginx
+  139  ll
+  140  ll conf.d
+  141  ll sites-available
+  142  nano sites-available
+  143  ll sites-enabled
+  144  nano sites-enabled   
+  145  cd ..
+  146  cd .
+  147  cd home
+  148  cd
+  149  sudo apt apache2 install -y
+  150  sudo apt install apache2 -y
+  151  cd /var/www/html
+  152  ll
+  153  sudo nano index.html
+  154  cd /etc/apache2
+  155  ll
+  156  sudo nano ports.conf
+  157  cd /etc/apache2/sites-available
+  158  ll
+  159  sudo nano 000-default.conf
+  160  cd ..
+  161  nano ports.conf
+  162  sudo service apache2 restart
+  163  cd .
+  164  cd..
+  165  cd
+  166  cd etc/nginx
+  167  cd /etc
+  168  cd nginx
+  169  nano sites-enabled/default
+  170  cd etc
+  171  cd /etc
+  172  cd nginx
+  173  sudo nano sites-enabled/default
+  174  sudo service nginx restart
+  175  cd /var/www/html
+  176  sudo nano info.php
+  177  sudo apt install libasudo apt install libapache2-mod-php -y
+  178  sudo apt install libapache2-mod-php -y
+  179  cd
+  180  cd etc/nginx
+  181  cd etc
+  182  cd /etc
+  183  cd nginx
+  184  ll
+  185  sudo apt install mysql-server -y
+  186  sudo mysql
+  187  sudo apt install libapache2-mod-php -y
+  188  cd /var/www/html
+  189  ll
+  190  cat info.php
+  191  sudo apt install docker.io docker-compose -y
+  192  docker-compose
+  193  sudo docker --help
+  194  sudo docker run hello-world
+  195  sudo docker ps
+  196  sudo docker --help
+  197  sudo docker ps --help
+  198  sudo docker run hello-world
+  199  sudo docker ps -a
+  200  sudo docker rm xenodochial_khayyam
+  201  sudo docker ps -a
+  202  sudo docker run hello-world
+  203  sudo docker ps -a
+  204  sudo docker images
+  205  sudo docker pull nginx
+  206  sudo docker images
+  207  sudo docker ps -a
+  208  sudo docker run -v /var/www/html:/var/www/html -p 8888:80 -d --name my_nginx nginx
+  209  sudo docker exec --help
+  210  sudo docker exec -ti my_nginx bash
+  211  sudo docker stop my_nginx
+  212  sudo docker rm my_nginx
+  213  sudo docker run -v /var/www/html:/usr/share/nginx/html -p 80:80 -d --name my_nginx nginx
+  214  sudo docker ps -a
+  215  sudo docker rm my_nginx
+  216  sudo service nginx stop
+  217  sudo docker run -v /var/www/html:/usr/share/nginx/html -p 80:80 -d --name my_nginx nginx
+  218  sudo docker stop my_nginx
+  219  mkdir wordpress && cd wordpress
+  220  mkdir nginx-conf
+  221  sudo apt install tree -y
+  222  tree
+  223  nano nginx-conf/nginx.conf
+  224  nano .env
+  225  tree .a
+  226  tree -a
+  227  nano docker-compose.yml
+  228  sudo docker-compose up -d 
+  229  sudo docker-compose ps
+  230  nano
+  231  /tmp
+  232  ..
+  233  .
+  234  ..
+  235  home
+  236  /home/ubuntu/tmp
+  237  nano script
+  238  cat script
+  239  ./script
+  240  /home/ubuntu/tmp ./script
+  241  sudo /home/ubuntu/tmp ./script
+  242  nano script
+  243  sudo /home/ubuntu/tmp ./script
+  244  /home/ubuntu/tmp ./script
+  245  ./script
+  246  sudo ./script 
+  247  su sudo 
+  248  sudo su
+  249  sudo apt install cgroup-tools
+  250  sudo apt install lxc debootstrap bridge-utils lxc-templates
+  251  man lxs
+  252  man lxc
+  253  docker run -it ubuntu:23.10 bash
+  254  sudo docker run -it ubuntu:23.10 bash
+  255  docker ps
+  256  sudo docker ps
+  257  sudo docker run GB -it ubuntu:23.10 bash
+  258  sudo docker run -it -h GB ubuntu:23.10 bash
+  259  docker ps
+  260  sudo docker ps
+  261  sudo docker --help
+  262  sudo docker run
+  263  cd /var/www
+  264  mkdir docker
+  265  sudo mkdir docker
+  266  cd /docker
+  267  cd /docker/
+  268  cd /var/www/docker
+  269  mkdir mydb
+  270  sudo mkdir mydb
+  271  ls -l
+  272  cd mydb/
+  273  sudo docker run
+  274  sudo docker --help
+  275  cd /var/www/docker
+  276  ls -l
+  277  cat --help
+  278  mkdir mariadb
+  279  sudo mkdir mariadb
+  280  ls -l
+  281  cd mariadb/
+  282  ls -l
+  283  nano Dockerfile
+  284  sudo nano Dockerfile
+  285  nano docker-compose.yml
+  286  sudo nano docker-compose.yml
+  287  docker-compose up
+  288  sudo docker-compose up
+  289  sudo nano docker-compose.yml
+  290  sudo docker-compose up
+  291  sudo nano docker-compose.yml
+  292  sudo nano Dockerfile
+  293  mkdir myfolder
+  294  sudo mkdir myfolder
+  295  sudo docker-compose up
+  296  sudo nano docker-compose.yml
+  297  sudo docker-compose up
+  298  docker ps
+  299  sudo docker-compose up
+  300  sudo nano docker-compose.yml
+  301  sudo docker-compose up
+  302  sudo docker ps
+  303  sudo nano docker-compose.yml
+  304  sudo apt-get -y install git git-core python
+  305  git clone https://github.com/oserres/isz-tool.git
+  306  ./isz-tool.py -h 
+  307  ./isz-tool.py
+  308  /isz-tool.py
+  309  git clone
+  310  .git
+  311  ./
+  312  /
+  313  git
+  314  git branch
+  315  git clone https://github.com/oserres/isz-tool.git
+  316  ./
+  317  ./home
+  318  ./home/isz-tool.py
+  319  /home/ubuntu/isz-tool
+  320  ./isz-tool.py -h 
+  321  ./isz-tool.py isz2iso PTC.isz PTC.iso
+  322  ./isz-tool.py verify PTC.isz
+  323  -h
+  324  ./isz-tool.py -h
+  325  ./isz-tool.py info
+  326  ./isz-tool.py info [/home/ubuntu/isz-tool] PTC1.isz
+  327  ./isz-tool.py info [-h] PTC1.isz
+  328  ./isz-tool.py info PTC1.isz
+  329  /PTC1.isz
+  330  /home/ubuntu/isz-tool/PTC1.isz
+  331  sudo /home/ubuntu/isz-tool/PTC1.isz
+  332  apt sudo /home/ubuntu/isz-tool/PTC1.isz
+  333  apt  /home/ubuntu/isz-tool/PTC1.isz
+  334  sudo /home/ubuntu/isz-tool/PTC1.isz
+  335  sudo /home/ubuntu/isz-tool
+  336  ./isz-tool.py isz2iso /home/ubuntu/isz-tool/PTC1.isz PTC.iso
+  337  sudo /home/ubuntu/isz-tool
+  338  sudo cat /home/ubuntu/isz-tool/PTC1.isz
+  339  sudo ./isz-tool.py isz2iso PTC1.isz PTC.iso
+  340  /home/ubuntu/isz-tool/
+  341  chmod go-r
+  342  cn
+  343  chmod -h
+  344  chmod --help
+  345  chmod go-r /home/ubuntu/isz-tool
+  346  chmod go-r /home/ubuntu/isz-tool/PTC.iso
+  347  sudo chmod go-r /home/ubuntu/isz-tool/PTC.iso
+  348  ls -l
+  349  sudo chown -R [ubuntu]:[ubuntu] /home/[ubuntu]
+  350  chown newowner PTC.iso
+  351  sudo chown newowner PTC.iso
+  352  sudo chown root PTC.iso
+  353  sudo chown ubuntu PTC.iso
+  354  ls -l
+  355  sudo chown ubuntu PTC1.isz
+  356  ls -l
+  357  chmod u=rwx PTC.iso
+  358  ls -l
+  359  chmod u=rwx PTC1.7z
+  360  chmod u=rwx PTC1.isz
+  361  ls -l
+  362  sudo chown a-newowner PTC.iso
+  363  chmod a=rwx PTC.iso
+  364  ls -l
+  365  chmod a=rwx PTC1.isz
+  366  ls -l
+  367  ./
+  368  //
+  369  /home/ubuntu/Windows
+  370  /home/ubuntu/
+  371  ls -l
+  372  sudo chown ubuntu Windows
+  373  ls-l
+  374  ls -l
+  375  chmod a=rwx Windows
+  376  sudo chmod a=rwx Windows
+  377  /project
+  378  /home/ubuntu/project
+  379  /home/ubuntu/Project
+  380  git init
+  381  git commit -m "first commit"
+  382  git config --global user.email "ilya030204@gmail.com"
+  383  git config --global user.name "IlyaNagachev"
+  384  git commit -m "first commit"
+  385  echo "Собаки" > домашниеЖивотные.txt
+  386  echo "Кошки" >> домашниеЖивотные.txt
+  387  ls -l
+  388  echo "Хомяки" >> домашниеЖивотные.txt
+  389  echo "Лошади" > вьючныеЖивотные.txt
+  390  echo "Верблюды" >> вьючныеЖивотные.txt
+  391  echo "Ослы" >> вьючныеЖивотные.txt
+  392  git add .
+  393  git pull
+  394  git commit -m "first commit"
+  395  git branch -M main
+  396  git pull "first commit" master
+  397  sudo git pull "first commit" master
+  398  git remote add origin https://github.com/IlyaNagachev/FinalTestSQL.git
+  399  cat домашниеЖивотные.txt вьючныеЖивотные.txt > друзьяЧеловека.txt
+  400  ls -l
+  401  cat друзьяЧеловека.txt
+  402  git add .
+  403  git commit -m "second commit"
+  404  git push .
+  405  git push
+  406  git push master
+  407  sudo git push master
+  408  sudo git push .
+  409  git push --set-upstream origin main
+  410  git remote add origin <REMOTE_URL>
+  411  git push
+  412  git push .
+  413  git push --set-upstream origin main
+  414  mkdir питомник
+  415  mv друзьяЧеловека.txt питомник/
+  416  ls -l
+  417  git add .
+  418  git commit -m "third commit"
+  419  git push --set-upstream origin main
+  420  git branch branch1
+  421  git checkout branch1
+  422  git add .
+  423  git commit -m "third commit"
+  424  sudo apt-get update
+  425  sudo apt-get install mysql-server
+  434  cd ~/Загрузки/\n
+  435  ls -l
+  436  sudo dpkg -i vivaldi-stable_6.9.3447.54-1_amd64.deb
+  441  dpkg --list
+  442  sudo dpkg -r vivaldi-stable 
